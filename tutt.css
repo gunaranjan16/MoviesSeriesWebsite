@@ -1,0 +1,113 @@
+*{
+	font-family: arial,sans-serif;
+	text-decoration: none;
+	color: white;
+	border: none;
+	padding: 0px;
+	background-image: url(netflix.jpg);
+	 background-position: 100px 100px;
+        background-repeat:repeat;
+        background-attachment: fixed;
+        background-size: auto;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+.navbar{
+	overflow: hidden;
+	padding: 12px;
+}
+.navbar a{
+	float : left;
+	font-size: 18px;
+	color: whitesmoke;
+	text-align: right;
+	text-align: right;
+	padding: 16px 16px;
+	text-decoration: none;
+} 
+h1 {
+	justify-content: center;
+	color: white;
+	text-align: center;
+	font-family: Lucida Bright;
+}
+.navdiv h1{
+	justify-content: center ;
+	color:dodgerblue;
+
+}
+.navdiv ul{
+	font: times new roman;
+}
+.navdiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.navdiv li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 90px;
+	justify-content: center;
+}
+.dropdown .mybutton
+{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: lightskyblue;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content
+{
+    float: right;
+    display: none;
+    position: absolute;
+    background-color: white;
+    width:120px;
+}
+
+.dropdown-content 
+{
+    float: inherit;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 13px;
+}
+.dropdown:hover .dropdown-content
+{
+    display:block;
+}
+.dropdown{
+    float: right;
+    overflow: hidden;
+}
+.input{
+	width: 30%;
+	padding: 50px;
+}
+.searchbar{
+	padding: 50px;
+	text-align: center;
+}
+.box{
+	border-color:red;
+	border-width: 2px;
+	border-style:none;
+	display: inline-block;
+	width: 377px;
+}
+.product{
+	text-align: center;
+}
+.movies box:hover{
+	background-color: blue;
+	color: white;
+}
